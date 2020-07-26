@@ -1,0 +1,263 @@
+body {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 5% 8%;
+}
+.colored-class {
+  background-color: #757575;
+}
+
+
+/* //TITLE */
+
+#Title {  
+  display: block;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(20, 20, 20, 0.7)),
+    url("images/TITLE_BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+#Title h1 {
+  color: #f3c623;
+  font-family: "Shrikhand", cursive;
+  font-size: 3rem;
+  font-weight: lighter;  
+  line-height: 4rem;  
+  letter-spacing: 2px;
+}
+
+#Title h2 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 3rem;  
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {  
+  margin-top: 0;
+  padding: 0 0 4rem;
+}
+
+/* //ABOUT */
+
+.container {
+  background-color: #cbeaed;
+  box-shadow: 5px 5px 15px rgba(0, 2, 2, 0.9);  
+  height: 100%;
+  line-height: 1.5rem;  
+  padding: 4%;  
+  text-align: justify;
+  width: 85%;
+  
+}
+.container h3 {
+  color: #347474;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: left;
+  
+}
+
+
+/* //EDUCATION */
+
+#Education h3 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem; 
+  margin-bottom: 5%; 
+  text-align: left;
+  
+}
+#Education .card {
+  border: 0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+}
+#Education .card:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.cardhead {
+  color: #f3c623;
+  font-family: "Ubuntu", sans-serif;
+
+  padding: 3%;
+  font-size: 1rem;
+  background-color:#252525 ;
+}
+/* //#757575 */
+.cardbody {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.caros_img {
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+}
+
+
+/* //TECHNICAL SKILL */
+
+#Technical_skills .container {
+  padding: 7%;
+  text-align: center;
+  
+}
+#Technical_skills h4,h3 {
+  color: #347474;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;  
+  line-height: 1rem;
+  margin-bottom: 5%;  
+  text-align: left;
+}
+
+.card-title {
+  color: #347474;
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+#Technical_skills .card {
+  box-shadow: 5px 5px 15px rgba(125, 180, 202, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+}
+#Technical_skills .card:hover {
+  /* transform: scale(1.2); */
+  box-shadow: 5px 5px 15px rgba(125, 180, 202, 0.9);
+  background-color: #347474;
+}
+
+
+/* //PROJECT */
+
+#carousel {
+  padding: 3%;
+}
+.carousel-inner {
+  padding: 7%;
+}
+#Projects h2 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 13%;
+  line-height: 2rem;
+  text-align: left;
+  
+}
+#Projects h3,h4 {
+  color: #f3c623;  
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem; 
+  margin-left: 3%; 
+  text-align: justify;  
+}
+#Projects p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  text-align: justify;
+}
+#Projects .card {
+  padding: 3%;
+  background-color: #757575;
+  border: 0;
+}
+
+
+/* //INTERN,CERTIFY,ACTIVITY */
+
+#filler h4 {
+  color: #347474;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 3rem;  
+  text-align: justify;
+}
+
+#filler .container {  
+  padding: 4%;
+  width: 65%;
+}
+
+#filler .card {
+  border: 0;
+  background-color: #cbeaed;
+  margin: 7%;
+  
+}
+
+
+
+
+
+/* //CONTACT ME */
+
+#contact .container-fluid {
+  background-color: white;
+}
+
+.contact_button {
+  color: white;
+  background-color: #757575;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;  
+  margin: 1%;
+  text-align: center;
+}
+.contact_button:hover {
+  color: #f3c623;
+}
+
+
+
+
+/* //FOOTER */
+
+#footer .container-fluid {
+  background-color: #347474;
+  color: white;
+  height: 10%;
+  padding: 0.5%;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #f3c623;
+}
+
+.social-icon {
+   font-size: 38px;
+  margin: 5%;
+  margin-bottom: 2%;
+}
+
+
+@media (max-width: 1028px) {
+
+  
+}
+
+

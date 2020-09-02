@@ -46,6 +46,8 @@ p {
 .navbar {  
   margin-top: 0;
   padding: 0 0 4rem;
+  position: fixed;
+  top: 0;
 }
 
 /* //ABOUT */

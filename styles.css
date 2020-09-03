@@ -36,19 +36,15 @@ body {
 #Title h2 {
   color: white;
   font-family: "Ubuntu", sans-serif;
-  line-height: 3rem;  
+  line-height: 3rem; 
+  margin-top: 4rem;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
 }
 
-.navbar {  
-  margin-top: 0;
-  padding: 0 0 4rem;
-  position: fixed;
-  top: 0;
-}
+
 
 /* //ABOUT */
 
